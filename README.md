@@ -1,27 +1,59 @@
-# React + TypeScript + Vite
+<h1 align="center">UPLOAD.AI WEB</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="#-descricao">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-demonstração">Demonstração</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-executando-o-projeto">Como executar Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licença">Licença</a>
+</p>
 
-Currently, two official plugins are available:
+## 📜 Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Projeto para criação de memorias em timeline.
 
-## Expanding the ESLint configuration
+## Demonstração
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<img width="800px" alt="home" src="./.github/home.png">
 
-- Configure the top-level `parserOptions` property like this:
+## ✨ Tecnologias
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Nodejs](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Reactjs](https://pt-br.reactjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [SQLite](https://www.sqlite.org/)
+- [Vercel SDK AI](https://sdk.vercel.ai/docs)
+- [Shadcn](https://ui.shadcn.com/)
+- [Vitejs](https://vitejs.dev/)
+
+## 🎲 Executando o Projeto
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/Bruno-Cesar123/upload.ai_web.git
+
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd upload.ai_web
+
+# Instale as dependências
+$ pnpm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ pnpm run dev
+
+# O servidor inciará na porta:5173 - acesse <http://localhost:5173/>
+
+
+
 ```
+- [back-end](https://github.com/Bruno-Cesar123/upload.ai_server)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](license) para mais detalhes.
+
+---
+
+Feito por **Bruno Cesar** [**LinkedIn**](https://www.linkedin.com/in/bruno-cesar-b0039715a/)
