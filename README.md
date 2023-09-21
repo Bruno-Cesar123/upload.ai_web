@@ -10,7 +10,7 @@
 
 ## 📜 Descrição
 
-- Projeto para criação de memorias em timeline.
+- Projeto para conversão de Mp4 para mp3 com descrição gerada pela IA da openai.
 
 ## Demonstração
 
